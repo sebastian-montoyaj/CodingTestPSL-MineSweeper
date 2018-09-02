@@ -10,7 +10,7 @@ public class GridTest
 	@Test
 	public void test()
 	{
-		fail("Not yet implemented");
+		
 	}
 
 }
