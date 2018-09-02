@@ -518,13 +518,8 @@ public class Grid // Clase encargada de la logica y metodos del tablero o rejill
 	 */
 	public boolean checkGameOver()
 	{
-		// Simplemente, Si el estado del juego es PLAYING entonces
-		if (gameState == PLAYING)
-		{
-			return false; // Retorno falso
-		}
-		
-		return true; // Si es cualquier otro (WINNED o LOSED) entonces retorno verdadero
+		// Simplemente, retorno el resultado de evaluar si el estado del juego
+		return gameState != PLAYING;
 	}
 	
 	/**

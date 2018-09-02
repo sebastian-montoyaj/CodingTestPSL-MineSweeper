@@ -215,12 +215,8 @@ public class MineSweeper // Clase principal del juego Buscaminas
 			int number = Integer.parseInt(stringToAnalize); // Castear la cadena de caracteres a un numero entero
 			
 			// Si pasa la instruccion anterior entonces ahora reviso que el numero en cuestion SI sea Positivo
-			if (number > 0)
-			{
-				return true; // Si la validacion es correcta retorno VERDADERO
-			}
-
-			return false; // Sino retorno FALSO
+			
+			return number > 0; // Por lo tanto, retorno el resultado de evaluar si el numero es mayor a cero
 		}
 		catch (NumberFormatException ex) // En caso de error ...
 		{

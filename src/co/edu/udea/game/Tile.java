@@ -125,11 +125,7 @@ public class Tile // Clase encargada de la logica y metodos que debe tener cada 
 	 */
 	public boolean isEmpty() // Metodo adicional a los getters y setters y que utilizo para saber si la baladosa esta vacia o no
 	{
-		if (EMPTY_TILE == getSurroundingMines() && !isMined())
-		{
-			return true; // Retorno verdadero si la baldosa NO tiene una dentro y tampoco si tiene minas alrededor
-		}
-		
-		return false; // De lo contario, retorno falso
+		// Aqui simplemente, retorno el resultado de evaluar si la baldosa NO tiene una mina adentro y si tampoco si tiene minas alrededor
+		return EMPTY_TILE == getSurroundingMines() && !isMined();
 	}
 }

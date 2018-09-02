@@ -85,10 +85,10 @@ public class GridTest
 		while (true)
 		{
 			Grid tablero1 = new Grid(10, 10, 1);
-			tablero1.drawGrid().contains(".");
+			assertThat(tablero1.drawGrid(), containsString("."));
 			
 			tablero1.executeCommand(0, 0, "m");
-			tablero1.drawGrid().contains("P");
+			assertThat(tablero1.drawGrid(), containsString("P"));
 			
 			tablero1.executeCommand(0, 0, "m");
 			tablero1.executeCommand(0, 0, "u");
@@ -107,6 +107,7 @@ public class GridTest
 			
 			if (tablero2.drawGrid().contains("*"))
 			{
+				assertThat(tablero2.drawGrid(), containsString("*"));
 				break;
 			}
 		}
