@@ -18,5 +18,5 @@ Sebastián Montoya Jiménez ~ sebastian.montoyaj@udea.edu.co
 
 This app runs on Java 8. Simply clone this repository and inside of **jar folder** execute:  
 ```
-**java -jar MineSweeper.jar**
+java -jar MineSweeper.jar
 ```
