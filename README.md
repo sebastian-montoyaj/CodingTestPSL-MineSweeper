@@ -13,3 +13,10 @@ This project is a implementation of minesweeper's game in Java language.
 Sebastián Montoya Jiménez ~ sebastian.montoyaj@udea.edu.co
 
 ***
+
+## Instructions:
+
+This app runs on Java 8. Simply clone this repository and inside of **jar folder** execute:  
+```
+**java -jar MineSweeper.jar**
+```
