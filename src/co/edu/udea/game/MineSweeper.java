@@ -124,7 +124,7 @@ public class MineSweeper // Clase principal del juego Buscaminas
 					// Si lo ingresado NO es un numero entonces
 					if (!isAPositiveIntegerNumber(inputValue))
 					{
-						// Emito un mensaje y salto a la siguiente iteración para volver a preguntar
+						// Emito un mensaje y salto a la siguiente iteracion para volver a preguntar
 						System.out.println("File index is not a positive number!");
 						continue;
 					}
@@ -149,7 +149,7 @@ public class MineSweeper // Clase principal del juego Buscaminas
 					// Si lo ingresado NO es un numero entonces
 					if (!isAPositiveIntegerNumber(inputValue))
 					{
-						// Emito un mensaje y salto a la siguiente iteración para volver a preguntar
+						// Emito un mensaje y salto a la siguiente iteracion para volver a preguntar
 						System.out.println("Column index is not a positive number!");
 						continue;
 					}

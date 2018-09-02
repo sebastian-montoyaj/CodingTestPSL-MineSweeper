@@ -443,7 +443,7 @@ public class Grid // Clase encargada de la logica y metodos del tablero o rejill
 		
 		// Ahora, para orientar al usuario vamos a dibujar los ejes en los que aumentan las filas y columnas del tablero de juego
 		
-		// Por lo que, se imprime el indice 1 y a continuación una linea punteada horizontal hasta que se terminan las columnas
+		// Por lo que, se imprime el indice 1 y a continuacion una linea punteada horizontal hasta que se terminan las columnas
 		gridScreen.append("    1 ");
 		for (int c = 0; c < columns; c++)
 		{
