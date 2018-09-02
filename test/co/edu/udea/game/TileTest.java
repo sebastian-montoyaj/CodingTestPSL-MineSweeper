@@ -39,7 +39,7 @@ public class TileTest
 	}
 	
 	@Test
-	public void testCheckingMark() // Prueba para revisar los metodos: isMarked y setMark
+	public void testCheckingAndSettingMark() // Prueba para revisar los metodos: isMarked y setMark
 	{
 		Tile baldosa = new Tile();
 		
@@ -52,7 +52,7 @@ public class TileTest
 	}
 	
 	@Test
-	public void testCheckingMine() // Prueba para revisar los metodos: isMined y setMine
+	public void testCheckingAndSettingMine() // Prueba para revisar los metodos: isMined y setMine
 	{
 		Tile baldosa = new Tile();
 		
@@ -66,7 +66,7 @@ public class TileTest
 	
 	
 	@Test
-	public void testGettingSurroundingMines() // Prueba para revisar los metodos: getSurroundingMines y setSurroundingMines
+	public void testGettingAndSettingSurroundingMines() // Prueba para revisar los metodos: getSurroundingMines y setSurroundingMines
 	{
 		Tile baldosa = new Tile();
 		
@@ -80,7 +80,7 @@ public class TileTest
 	
 	
 	@Test
-	public void testChehckingEmptyTile() // Prueba para revisar el metodo isEmpty
+	public void testCheckingEmptyTile() // Prueba para revisar el metodo isEmpty
 	{
 		Tile baldosa = new Tile();
 		
